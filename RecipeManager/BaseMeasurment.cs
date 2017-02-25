@@ -9,8 +9,17 @@ namespace Recipe.Shared
     public class BaseMeasurment
     {
         #region " Private "
+
         #endregion
         #region " Public "
+        private double _Measurment;
+
+        public double Measurment
+        {
+            get { return _Measurment; }
+            set { _Measurment = value; }
+        }
+        
         #endregion
 
     }
