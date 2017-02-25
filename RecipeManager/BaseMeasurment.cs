@@ -19,6 +19,15 @@ namespace Recipe.Shared
             get { return _Measurment; }
             set { _Measurment = value; }
         }
+
+        private int myVar;
+
+        public int MyProperty
+        {
+            get { return myVar; }
+            set { myVar = value; }
+        }
+        
         
         #endregion
 
